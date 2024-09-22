@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HospitalActivity"
+    android:orientation="vertical"
+    android:background="#f2f5df"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="10dp"
+                app:neumorph_shadowColorDark="@color/moonstone"
+                app:neumorph_shadowColorLight="@color/text_color2"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="হাসপাতাল সমূহ"
+                    android:textColor="#489fb3"
+                    android:textSize="32sp"
+                    android:textStyle="bold" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/shape2"
+                    android:backgroundTint="#d5e29f"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10sp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:background="@drawable/shape2"
+                            android:orientation="vertical">
+
+                            <soup.neumorphism.NeumorphCardView
+                                android:layout_width="285dp"
+                                android:layout_height="85dp"
+                                android:layout_margin="0dp"
+                                app:neumorph_shadowColorDark="@color/black"
+                                app:neumorph_shadowColorLight="@color/grey"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="0dp"
+                                >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:text="উপজেলা স্বাস্থ্য কমপ্লেক্স"
+                                    android:textColor="#489fb3"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold"
+                                    android:background="#f1f6e0"/>
+
+                            </soup.neumorphism.NeumorphCardView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ঠিকানাঃ রেশমি কমিউনিটি সেন্টারের\nবিপরীতে "
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="#100c08"
+                        />
+
+                </LinearLayout>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/calluhc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#f2f5df"
+                    android:src="@drawable/call2"
+                    android:layout_marginLeft="8sp"
+                    android:layout_gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/shape2"
+                    android:backgroundTint="#d5e29f"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10sp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:background="@drawable/shape2"
+                            android:orientation="vertical">
+
+                            <soup.neumorphism.NeumorphCardView
+                                android:layout_width="285dp"
+                                android:layout_height="85dp"
+                                android:layout_margin="0dp"
+                                app:neumorph_shadowColorDark="@color/black"
+                                app:neumorph_shadowColorLight="@color/grey"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="0dp"
+                                >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:text="সাতকানিয়া প্রাণী হাসপাতাল"
+                                    android:textColor="#489fb3"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold"
+                                    android:background="#f1f6e0"/>
+
+                            </soup.neumorphism.NeumorphCardView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ঠিকানাঃ গারাঙ্গগিয়া, সাতকানিয়া "
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="#100c08"
+                        />
+
+                </LinearLayout>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/callsah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#f2f5df"
+                    android:src="@drawable/call2"
+                    android:layout_marginLeft="8sp"
+                    android:layout_gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/shape2"
+                    android:backgroundTint="#d5e29f"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10sp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:background="@drawable/shape2"
+                            android:orientation="vertical">
+
+                            <soup.neumorphism.NeumorphCardView
+                                android:layout_width="285dp"
+                                android:layout_height="85dp"
+                                android:layout_margin="0dp"
+                                app:neumorph_shadowColorDark="@color/black"
+                                app:neumorph_shadowColorLight="@color/grey"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="0dp"
+                                >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:text="মা ও শিশু জেনারেল হাসপাতাল"
+                                    android:textColor="#489fb3"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold"
+                                    android:background="#f1f6e0"/>
+
+                            </soup.neumorphism.NeumorphCardView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ঠিকানাঃ কেরানীহাট, সাতকানিয়া"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="#100c08"
+                        />
+
+                </LinearLayout>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/callmsgh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#f2f5df"
+                    android:src="@drawable/call2"
+                    android:layout_marginLeft="8sp"
+                    android:layout_gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/shape2"
+                    android:backgroundTint="#d5e29f"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10sp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:background="@drawable/shape2"
+                            android:orientation="vertical">
+
+                            <soup.neumorphism.NeumorphCardView
+                                android:layout_width="285dp"
+                                android:layout_height="85dp"
+                                android:layout_margin="0dp"
+                                app:neumorph_shadowColorDark="@color/black"
+                                app:neumorph_shadowColorLight="@color/grey"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="0dp"
+                                >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:text="সেন্ট্রাল হাসপাতাল ও ডায়াগনস্টিক সেন্টার"
+                                    android:textColor="#489fb3"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold"
+                                    android:background="#f1f6e0"/>
+
+                            </soup.neumorphism.NeumorphCardView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ঠিকানাঃ সিটি সেন্টার, কেরানীহাট, সাতকানিয়া"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="#100c08"
+                        />
+
+                </LinearLayout>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/callchdc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#f2f5df"
+                    android:src="@drawable/call2"
+                    android:layout_marginLeft="8sp"
+                    android:layout_gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/shape2"
+                    android:backgroundTint="#d5e29f"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10sp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:background="@drawable/shape2"
+                            android:orientation="vertical">
+
+                            <soup.neumorphism.NeumorphCardView
+                                android:layout_width="285dp"
+                                android:layout_height="85dp"
+                                android:layout_margin="0dp"
+                                app:neumorph_shadowColorDark="@color/black"
+                                app:neumorph_shadowColorLight="@color/grey"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="0dp"
+                                >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:text="আশ-শেফা হাসপাতাল লিমিটেড"
+                                    android:textColor="#489fb3"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold"
+                                    android:background="#f1f6e0"/>
+
+                            </soup.neumorphism.NeumorphCardView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ঠিকানাঃ কেরানীহাট, সাতকানিয়া"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="#100c08"
+                        />
+
+                </LinearLayout>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/callahl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#f2f5df"
+                    android:src="@drawable/call2"
+                    android:layout_marginLeft="8sp"
+                    android:layout_gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

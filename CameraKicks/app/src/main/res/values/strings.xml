@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Camera Kicks</string>
+    <string name="hello_world">Hello World</string>
+    <string name="button">Button</string>
+    <string name="button_big_bro">Button big bro</string>
+    <string name="small">Long</string>
+</resources>

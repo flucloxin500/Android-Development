@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/body_container"
+    android:background="#e1f5fe"
+    android:orientation="vertical"
+    >
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="13dp"
+        android:elevation="2dp"
+        app:menu="@menu/item_menu"
+        android:background="@drawable/round_corners"
+        app:itemRippleColor="@android:color/transparent"
+        app:itemIconSize="30sp"
+        app:labelVisibilityMode="unlabeled"
+        app:itemIconTint="@drawable/item_selector"
+        android:id="@+id/bottom_navigation"
+
+
+        />
+
+
+
+    <!-- Image Slider  -->
+
+
+   <LinearLayout
+       android:id="@+id/layoutToolbar"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/neumorphCardView2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="0dp"
+            app:neumorph_shadowColorDark="#80cbc4"
+            app:neumorph_shadowColorLight="@color/text_color2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            >
+
+
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/image_slider"
+                android:layout_width="385dp"
+                android:layout_height="180dp"
+                app:iss_auto_cycle="true"
+                app:iss_delay="0"
+                app:iss_period="3000"
+                app:iss_text_align="CENTER"
+                app:iss_title_background="@color/slider_title_background"
+                tools:ignore="MissingClass"
+
+                />
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <AnalogClock
+            android:layout_width="100dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape2"
+            android:backgroundTint="#006064"
+            android:layout_marginTop="7sp"
+            android:layout_marginLeft="3sp"
+            android:layout_marginRight="3sp"
+            android:layout_marginBottom="7sp"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নোটিশ:"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/marqueeText"
+                android:text="'Hello Satkania' এপ এ আপনাদের সবাইকে স্বাগতম। আশা করছি, এপটি আপনাদের কোনো না কোনো উপকারে আসবে। এপ নিয়ে কোনো পরামর্শ দিতে চাইলে About Us এ গিয়ে যোগাযোগ করার অনুরোধ করা হলো।"
+                android:textSize="21sp"
+                android:textColor="#e0f7fa"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:scrollHorizontally="true"
+                android:layout_marginLeft="12sp"
+                android:layout_marginRight="10sp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <!-- ScrollView  -->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="408dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="13dp"
+                android:weightSum="30">
+
+
+                <LinearLayout
+                    android:id="@+id/lintro"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8sp"
+                    android:layout_weight="10"
+                    android:background="@drawable/two_color"
+                    android:orientation="vertical">
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewintro"
+                        android:layout_width="70dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_url="https://assets7.lottiefiles.com/packages/lf20_M9p23l.json" />
+
+                    <TextView
+                        android:id="@+id/textint"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="পরিচিতি"
+                        android:textColor="#141414"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lunio"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8sp"
+                    android:layout_weight="10"
+                    android:background="@drawable/two_color"
+                    android:orientation="vertical">
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewunion"
+                        android:layout_width="70dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_url="https://assets9.lottiefiles.com/packages/lf20_9qsh9yze.json" />
+
+                    <TextView
+                        android:id="@+id/textward"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="ইউনিয়ন"
+                        android:textColor="#141414"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lpour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:background="@drawable/two_color"
+                    android:orientation="vertical">
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewtourism"
+                        android:layout_width="70dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_url="https://assets3.lottiefiles.com/packages/lf20_drrpbqcu.json" />
+
+                    <TextView
+                        android:id="@+id/texttou"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="পৌরসভা"
+                        android:textColor="#141414"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="13dp"
+                android:weightSum="90">
+
+                <LinearLayout
+                    android:id="@+id/ldoc"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8sp"
+                    android:layout_weight="30"
+                    android:background="@drawable/two_color"
+                    android:orientation="vertical">
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewdoctor"
+                        android:layout_width="70dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_url="https://assets6.lottiefiles.com/packages/lf20_h55dw0gs.json" />
+
+                    <TextView
+                        android:id="@+id/textdoc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="ডাক্তার"
+                        android:textColor="#141414"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lhos"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8sp"
+                    android:layout_weight="30"
+                    android:background="@drawable/two_color"
+                    android:orientation="vertical">
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewhosp"
+                        android:layout_width="70dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_url="https://assets10.lottiefiles.com/packages/lf20_yfk4tei3.json" />
+
+                    <TextView
+                        android:id="@+id/texthos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="হাসপাতাল"
+                        android:textColor="#141414"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lamb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:background="@drawable/two_color"
+                    android:orientation="vertical">
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewambu"
+                        android:layout_width="70dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_url="https://assets3.lottiefiles.com/packages/lf20_sy2feyup.json" />
+
+                    <TextView
+                        android:id="@+id/textamb"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="এম্বুলেন্স"
+                        android:textColor="#141414"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="13dp"
+            android:weightSum="90">
+
+            <LinearLayout
+                android:id="@+id/lpha"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8sp"
+                android:layout_weight="30"
+                android:background="@drawable/two_color"
+                android:orientation="vertical">
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationViewpharm"
+                    android:layout_width="70dp"
+                    android:layout_height="100dp"
+                    app:lottie_url="https://assets8.lottiefiles.com/private_files/lf30_ghyv7l.json"
+                    app:lottie_autoPlay="true"
+                    android:layout_gravity="center"
+                    app:lottie_loop="true" />
+
+                <TextView
+                    android:id="@+id/textpha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ফার্মেসী"
+                    android:textColor="#141414"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lsch"
+                android:layout_width="90dp"
+                android:layout_height="132dp"
+                android:layout_marginRight="8sp"
+                android:layout_weight="30"
+                android:background="@drawable/two_color"
+                android:orientation="vertical">
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationViewsch"
+                    android:layout_width="70dp"
+                    android:layout_height="90dp"
+                    app:lottie_url="https://assets2.lottiefiles.com/packages/lf20_irjgvxjf.json"
+                    app:lottie_autoPlay="true"
+                    android:layout_gravity="center"
+                    app:lottie_loop="true" />
+
+                <TextView
+                    android:id="@+id/textsch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="স্কুল"
+                    android:textColor="#141414"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lmad"
+                android:layout_width="wrap_content"
+                android:layout_height="132dp"
+                android:layout_weight="30"
+                android:background="@drawable/two_color"
+                android:orientation="vertical">
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationViewmad"
+                    android:layout_width="70dp"
+                    android:layout_height="90dp"
+                    app:lottie_url="https://assets1.lottiefiles.com/private_files/lf30_rmipxvc4.json"
+                    app:lottie_autoPlay="true"
+                    android:layout_gravity="center"
+                    app:lottie_loop="true" />
+
+
+                <TextView
+                    android:id="@+id/textmad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="মাদ্রাসা"
+                    android:textColor="#141414"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="90"
+            android:padding="13dp"
+            >
+            <LinearLayout
+                android:id="@+id/lcoll"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="30"
+                android:background="@drawable/two_color"
+                android:layout_marginRight="8sp"
+                >
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationViewcoll"
+                    android:layout_width="70dp"
+                    android:layout_height="100dp"
+                    app:lottie_url="https://assets5.lottiefiles.com/packages/lf20_Yr7hb9.json"
+                    app:lottie_autoPlay="true"
+                    android:layout_gravity="center"
+                    app:lottie_loop="true" />
+                <TextView
+                    android:id="@+id/textcol"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="কলেজ"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="#141414"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lvar"
+                android:layout_width="90dp"
+                android:layout_height="138dp"
+                android:orientation="vertical"
+                android:layout_weight="30"
+                android:background="@drawable/two_color"
+                android:layout_marginRight="8sp"
+                >
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationViewvar"
+                    android:layout_width="70dp"
+                    android:layout_height="100dp"
+                    app:lottie_url="https://assets7.lottiefiles.com/private_files/lf30_lhuhgupr.json"
+                    app:lottie_autoPlay="true"
+                    android:layout_gravity="center"
+                    app:lottie_loop="true" />
+
+                <TextView
+                    android:id="@+id/textuni"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="বিশ্ববিদ্যালয়"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="#141414"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lcoa"
+                android:layout_width="wrap_content"
+                android:layout_height="138dp"
+                android:orientation="vertical"
+                android:layout_weight="30"
+                android:background="@drawable/two_color"
+                >
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationViewcoa"
+                    android:layout_width="70dp"
+                    android:layout_height="100dp"
+                    app:lottie_url="https://assets10.lottiefiles.com/packages/lf20_z01bika0.json"
+                    app:lottie_autoPlay="true"
+                    android:layout_gravity="center"
+                    app:lottie_loop="true" />
+
+                <TextView
+                    android:id="@+id/textcoa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="কোচিং"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="#141414"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="90"
+            android:padding="13dp"
+            >
+            <LinearLayout
+                android:id="@+id/lhelp"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="30"
+                android:background="@drawable/two_color"
+                android:layout_marginRight="8sp"
+                >
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationViewhelp"
+                    android:layout_width="70dp"
+                    android:layout_height="100dp"
+                    app:lottie_url="https://assets5.lottiefiles.com/packages/lf20_kkagyj9p.json"
+                    app:lottie_autoPlay="true"
+                    android:layout_gravity="center"
+                    app:lottie_loop="true" />
+
+
+                <TextView
+                    android:id="@+id/texthel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="জরুরি কল"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="#141414"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lpol"
+                android:layout_width="90dp"
+                android:layout_height="138dp"
+                android:orientation="vertical"
+                android:layout_weight="30"
+                android:background="@drawable/two_color"
+                android:layout_marginRight="8sp"
+                >
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationViewpol"
+                    android:layout_width="70dp"
+                    android:layout_height="90dp"
+                    app:lottie_url="https://assets5.lottiefiles.com/packages/lf20_pex2sf.json"
+                    app:lottie_autoPlay="true"
+                    android:layout_gravity="center"
+                    app:lottie_loop="true" />
+
+                <TextView
+                    android:id="@+id/textpol"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="থানা পুলিশ"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="#141414"
+                    android:layout_marginTop="7sp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llawyer"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="30"
+                android:background="@drawable/two_color"
+                android:layout_marginRight="8sp"
+                >
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationViewlawyer"
+                    android:layout_width="70dp"
+                    android:layout_height="100dp"
+                    app:lottie_url="https://assets3.lottiefiles.com/private_files/lf30_2t2xp6zy.json"
+                    app:lottie_autoPlay="true"
+                    android:layout_gravity="center"
+                    app:lottie_loop="true" />
+
+
+                <TextView
+                    android:id="@+id/textlawyer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="উকিল"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="#141414"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lrestr"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="90"
+            android:padding="13dp"
+            >
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="30"
+                android:background="@drawable/two_color"
+                android:layout_marginRight="8sp"
+                >
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationViewrestr"
+                    android:layout_width="70dp"
+                    android:layout_height="100dp"
+                    app:lottie_url="https://assets2.lottiefiles.com/packages/lf20_gdteydzj.json"
+                    app:lottie_autoPlay="true"
+                    android:layout_gravity="center"
+                    app:lottie_loop="true" />
+
+
+                <TextView
+                    android:id="@+id/textres"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="রেস্টুরেন্ট"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="#141414"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lconve"
+                android:layout_width="90dp"
+                android:layout_height="138dp"
+                android:orientation="vertical"
+                android:layout_weight="30"
+                android:background="@drawable/two_color"
+                android:layout_marginRight="8sp"
+                >
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationViewconv"
+                    android:layout_width="70dp"
+                    android:layout_height="85dp"
+                    app:lottie_url="https://assets4.lottiefiles.com/packages/lf20_N1zUrn.json"
+                    app:lottie_autoPlay="true"
+                    android:layout_gravity="center"
+                    app:lottie_loop="true" />
+
+                <TextView
+                    android:id="@+id/textcon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="কনভেনশন হল"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="#141414"
+                    android:layout_marginTop="8sp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lgym"
+                android:layout_width="83dp"
+                android:layout_height="138dp"
+                android:orientation="vertical"
+                android:layout_weight="30"
+                android:background="@drawable/two_color"
+                >
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationViewgym"
+                    android:layout_width="70dp"
+                    android:layout_height="85dp"
+                    app:lottie_url="https://assets8.lottiefiles.com/packages/lf20_qmrxbp0w.json"
+                    app:lottie_autoPlay="true"
+                    android:layout_gravity="center"
+                    app:lottie_loop="true" />
+
+
+                <TextView
+                    android:id="@+id/textgym"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="জিমনেশিয়াম"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="#141414"
+                    android:layout_marginTop="8sp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/latm"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="90"
+                android:padding="13dp"
+                >
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="30"
+                    android:background="@drawable/two_color"
+                    android:layout_marginRight="8sp"
+                    >
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewatm"
+                        android:layout_width="70dp"
+                        android:layout_height="100dp"
+                        app:lottie_url="https://assets3.lottiefiles.com/datafiles/ZOzFvTrRbMoK2pc/data.json"
+                        app:lottie_autoPlay="true"
+                        android:layout_gravity="center"
+                        app:lottie_loop="true" />
+
+
+                    <TextView
+                        android:id="@+id/textatm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ATM বুথ"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="#141414"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llibrary"
+                    android:layout_width="90dp"
+                    android:layout_height="138dp"
+                    android:orientation="vertical"
+                    android:layout_weight="30"
+                    android:background="@drawable/two_color"
+                    android:layout_marginRight="8sp"
+                    >
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewlibrary"
+                        android:layout_width="70dp"
+                        android:layout_height="85dp"
+                        app:lottie_url="https://assets9.lottiefiles.com/packages/lf20_jsqgln1f.json"
+                        app:lottie_autoPlay="true"
+                        android:layout_gravity="center"
+                        app:lottie_loop="true" />
+
+                    <TextView
+                        android:id="@+id/textlibrary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="লাইব্রেরী"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="#141414"
+                        android:layout_marginTop="8sp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lrentcar"
+                    android:layout_width="83dp"
+                    android:layout_height="138dp"
+                    android:orientation="vertical"
+                    android:layout_weight="30"
+                    android:background="@drawable/two_color"
+                    >
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewrentcar"
+                        android:layout_width="70dp"
+                        android:layout_height="85dp"
+                        app:lottie_url="https://assets4.lottiefiles.com/packages/lf20_uarqbiia.json"
+                        app:lottie_autoPlay="true"
+                        android:layout_gravity="center"
+                        app:lottie_loop="true" />
+
+
+                    <TextView
+                        android:id="@+id/textrentcar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="গাড়ি ভাড়া"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="#141414"
+                        android:layout_marginTop="8sp"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lresult"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="90"
+                android:padding="13dp"
+                >
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="30"
+                    android:background="@drawable/two_color"
+                    android:layout_marginRight="8sp"
+                    >
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewresult"
+                        android:layout_width="70dp"
+                        android:layout_height="100dp"
+                        app:lottie_url="https://assets5.lottiefiles.com/packages/lf20_v7tiqqzx.json"
+                        app:lottie_autoPlay="true"
+                        android:layout_gravity="center"
+                        app:lottie_loop="true" />
+
+
+                    <TextView
+                        android:id="@+id/textresult"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ফলাফল"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="#141414"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lwakt"
+                    android:layout_width="90dp"
+                    android:layout_height="138dp"
+                    android:orientation="vertical"
+                    android:layout_weight="30"
+                    android:background="@drawable/two_color"
+                    android:layout_marginRight="8sp"
+                    >
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewwakt"
+                        android:layout_width="70dp"
+                        android:layout_height="85dp"
+                        app:lottie_url="https://assets6.lottiefiles.com/private_files/lf30_7mp95dwr.json"
+                        app:lottie_autoPlay="true"
+                        android:layout_gravity="center"
+                        app:lottie_loop="true" />
+
+                    <TextView
+                        android:id="@+id/textwakt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="নামাজের সময়"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:textColor="#141414"
+                        android:layout_marginTop="18sp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lquran"
+                    android:layout_width="83dp"
+                    android:layout_height="138dp"
+                    android:orientation="vertical"
+                    android:layout_weight="30"
+                    android:background="@drawable/two_color"
+                    >
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewquran"
+                        android:layout_width="70dp"
+                        android:layout_height="85dp"
+                        app:lottie_url="https://assets8.lottiefiles.com/packages/lf20_d5rgeffb.json"
+                        app:lottie_autoPlay="true"
+                        android:layout_gravity="center"
+                        app:lottie_loop="true" />
+
+
+                    <TextView
+                        android:id="@+id/textquran"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="কোরআন"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="#141414"
+                        android:layout_marginTop="8sp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="90"
+                android:padding="13dp"
+                android:layout_marginBottom="75dp"
+                >
+                <LinearLayout
+                    android:id="@+id/lshop"
+                    android:layout_width="90dp"
+                    android:layout_height="138dp"
+                    android:orientation="vertical"
+                    android:layout_weight="30"
+                    android:background="@drawable/two_color"
+                    android:layout_marginRight="8sp"
+                    >
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewshop"
+                        android:layout_width="70dp"
+                        android:layout_height="90dp"
+                        app:lottie_url="https://assets2.lottiefiles.com/packages/lf20_5ngs2ksb.json"
+                        app:lottie_autoPlay="true"
+                        android:layout_gravity="center"
+                        app:lottie_loop="true" />
+
+
+                    <TextView
+                        android:id="@+id/textshop"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="অনলাইন শপিং"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:textColor="#141414"
+                        android:layout_marginTop="8dp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lcurrier"
+                    android:layout_width="90dp"
+                    android:layout_height="138dp"
+                    android:orientation="vertical"
+                    android:layout_weight="30"
+                    android:background="@drawable/two_color"
+                    android:layout_marginRight="8sp"
+                    >
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewcurrier"
+                        android:layout_width="70dp"
+                        android:layout_height="85dp"
+                        app:lottie_url="https://assets1.lottiefiles.com/packages/lf20_phnu1ifa.json"
+                        app:lottie_autoPlay="true"
+                        android:layout_gravity="center"
+                        app:lottie_loop="true" />
+
+                    <TextView
+                        android:id="@+id/textcurrier"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="কুরিয়ার"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:textColor="#141414"
+                        android:layout_marginTop="8sp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lbus"
+                    android:layout_width="83dp"
+                    android:layout_height="138dp"
+                    android:orientation="vertical"
+                    android:layout_weight="30"
+                    android:background="@drawable/two_color"
+                    >
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewbus"
+                        android:layout_width="70dp"
+                        android:layout_height="85dp"
+                        app:lottie_url="https://assets6.lottiefiles.com/packages/lf20_brlpj4g6.json"
+                        app:lottie_autoPlay="true"
+                        android:layout_gravity="center"
+                        app:lottie_loop="true" />
+
+
+                    <TextView
+                        android:id="@+id/textbus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="বাস কাউন্টার"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:textColor="#141414"
+                        android:layout_marginTop="8sp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+   </LinearLayout>
+
+</RelativeLayout>
+

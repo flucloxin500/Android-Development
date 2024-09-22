@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DoctorActivity"
+    android:background="#f2f5df"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/neumorphCardView2"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_margin="0dp"
+                app:neumorph_shadowColorDark="@color/moonstone"
+                app:neumorph_shadowColorLight="@color/text_color2"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="শিশুরোগ বিশেষজ্ঞ"
+                    android:textColor="#489fb3"
+                    android:textSize="32sp"
+                    android:textStyle="bold" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:contentPadding="20dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="235sp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:background="@drawable/shape2"
+                            android:backgroundTint="#ffffff"
+                            android:orientation="vertical"
+                            android:id="@+id/lexpand"
+                            >
+
+
+                            <TextView
+                                android:layout_width="165sp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15sp"
+
+                                android:background="@drawable/shape2"
+                                android:text="ডাঃ মুক্তা ত্রিপুরা"
+                                android:textColor="#373f1a"
+                                android:textSize="25sp" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/docdetails"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15sp"
+                                    android:layout_marginTop="8sp"
+                                    android:background="@drawable/shape2"
+                                    android:text="Dental Surgeon\nBDS(CU);MPH(DHAKA)\nBMDC Reg.No.5024"
+                                    android:textColor="#1f2212"
+                                    android:textSize="10sp"
+                                    android:textStyle="italic"
+
+                                    />
+
+                                <TextView
+                                    android:id="@+id/docvisit"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15sp"
+                                    android:layout_marginTop="8sp"
+                                    android:background="@drawable/shape2"
+                                    android:text="      Visiting Hours\nSat-Thu: 10a.m.-1p.m.\n                5p.m.-9p.m.\nFriday : Closed"
+                                    android:textColor="#1f2212"
+                                    android:textSize="10sp"
+                                    android:textStyle="italic"
+
+                                    />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/calldmt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:backgroundTint="#f2f5df"
+                        android:src="@drawable/call2"
+                        android:layout_marginTop="22dp"
+
+                        />
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/locdmt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:backgroundTint="#f2f5df"
+                        android:src="@drawable/location"
+                        android:layout_marginTop="20dp"
+
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MathematicsActivity"
+    android:orientation="vertical"
+    android:background="#282b30"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/lphyf"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginBottom="30sp"
+                    android:text="Math 1st Paper"
+                    android:textColor="#ff0007"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationView1"
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    app:lottie_rawRes="@raw/math"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"/>
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 1: Physical World and Measurement\n (ম্যাট্রিক্স ও নির্ণায়ক)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"
+                />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 2:Vector\n (ভেক্টর)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"
+                />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 3:straight lines\n (সরলরেখা)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 4:circle\n (বৃত্ত)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 5:permutations and combinations\n (বিন্যাস ও সমাবেশ)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 6:trigonometric ratios\n(ত্রিকোণোমিতিক অনুপাত)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 7:trigonometric ratios of associated angles\n(সংযুক্ত কোণের ত্রিকোণোমিতিক অনুপাত)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 8:functions and graph of functions\n(ফাংশন ও ফাংশনের লেখচিত্র)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 9:differentiation\n(অন্তরীকরণ)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 10:integration\n(যোগজীকরণ)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginBottom="30sp"
+                    android:text="Math 2nd Paper"
+                    android:textColor="#ff0007"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationView2"
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    app:lottie_rawRes="@raw/math"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 1:Real numbers and inequalities\n (বাস্তব সংখ্যা ও অসমতা)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 2:linear programming\n (যোগাশ্রয়ী প্রোগ্রাম)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 3:complex numbers\n(জটিল সংখ্যা)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 4:polynomials and polynomial equations\n (বহুপদী ও বহুপদীর সমীকরণ)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 5:binomial expansions\n (দ্বীপদী বিস্তৃতি)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 6:conics\n(কণিক)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 7:inverse trigonometric function and trigonometric equations\n(বিপরীত ত্রিকোণোমিতিক ফাংশন ও ত্রিকোণোমিতিক সমীকরণ)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 8:statics\n(স্থিতিবিদ্যা)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 9:motion of particles in a plane\n(সমতলে বস্তুকণার গতি)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 10:measure of dispersions and probability\n(বস্তুর পরিমাপ ও সম্ভাবনা)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

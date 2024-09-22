@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+
+    android:background="@drawable/tajbeeh"
+    android:padding="15sp"
+
+
+
+
+    >
+
+
+
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="65sp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="#373f1a"
+        android:layout_margin="80sp"
+
+        />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textSize="25sp"
+        android:backgroundTint="#3cb371"
+
+
+        />
+
+    <Button
+        android:id="@+id/buttonSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sub"
+        android:textSize="25sp"
+        android:backgroundTint="#0072b1"
+
+
+
+        />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start from 0.00"
+        android:textSize="25sp"
+        android:backgroundTint="#a6ab66"
+
+        />
+
+
+</LinearLayout>

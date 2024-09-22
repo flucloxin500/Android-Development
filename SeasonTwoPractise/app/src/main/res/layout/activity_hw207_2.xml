@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HW207_2"
+    android:orientation="vertical"
+    android:background="#b2dfdb"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temp Converter"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input the value in Farenheit"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textColor="#004d40"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+
+        />
+    <EditText
+        android:id="@+id/edfar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Temp in farenheit"
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+
+        />
+
+    <Button
+        android:id="@+id/bkelvin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert to kelvin"
+        android:backgroundTint="#80cbc4"
+        android:padding="15dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_margin="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tresulttemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temp Here"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textColor="#004d40"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input the value in Kelvin"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textColor="#004d40"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="20"
+        >
+        <EditText
+            android:id="@+id/edkel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Temp in Kelvin"
+            android:inputType="number"
+            android:padding="15dp"
+            android:layout_weight="10"
+            android:layout_marginLeft="10dp"
+
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bcelcius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert to Celcius"
+        android:backgroundTint="#80cbc4"
+        android:padding="15dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_margin="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tresulttemp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temp Here"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textColor="#004d40"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+
+
+        />
+
+</LinearLayout>

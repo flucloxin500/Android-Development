@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhysicsActivity"
+    android:orientation="vertical"
+    android:background="#282b30"
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/lphyf"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginBottom="30sp"
+                    android:text="Physics 1st Paper"
+                    android:textColor="#ff0007"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationView1"
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    app:lottie_rawRes="@raw/physics"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"/>
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 1: Physical World and Measurement\n (ভৌত জগত ও পরিমাপ)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"
+                />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 2:Vector\n (ভেক্টর)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"
+                />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 3:Dynamics\n (গতিবিদ্যা)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 4:Newtonian Mechanics\n (নিউটনিয়ান বলবিদ্যা )"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 5:Work,Energy and power\n (কাজ,শক্তি ও ক্ষমতা)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 6:Gravitation and gravity\n(মহাকর্ষ ও অভিকর্ষ)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 7:Structural properties of matter\n( পদার্থের গাঠনিক ধর্ম)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 8:periodic motion\n( পর্যায়বৃত্ত গতি)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 9:wave\n(তরঙ্গ)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 10:ideal gas and kinetics of gas\n(আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+            
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginBottom="30sp"
+                    android:text="Physics 2nd Paper"
+                    android:textColor="#ff0007"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationView2"
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    app:lottie_rawRes="@raw/physics"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 1: Thermodynamics\n (তাপগতিবিদ্যা )"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 2:electrostatics\n (স্থির তড়িৎ)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 3:current electricity\n(চল তড়িৎ)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 4:magnetic effects of current and magnetism\n (তড়িৎ প্রবাহের চৌম্বক ক্রিয়া ও চুম্বকত্ব)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 5:electromagnetic induction and alternating current\n (তড়িৎ চৌম্বক আবেশ ও পরিবর্তী প্রবাহ)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 6:geometrical optics\n(জ্যামিতিক আলোকবিজ্ঞান)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 7:physical optics\n(ভৌত আলোকবিজ্ঞান)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 8:introduction of modern physics\n( আধুনিক পদার্থবিজ্ঞানের সূচনা)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 9:atomic model and nuclear physics\n(পরমাণুর মডেল এবং নিউক্লিয়ার পদার্থবিজ্ঞান)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 10:semiconductor and electronics\n(সেমিকন্ডাক্টর ও ইলেক্ট্রনিক্স)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 10:astronomy\n(জ্যোতির্বিজ্ঞান)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

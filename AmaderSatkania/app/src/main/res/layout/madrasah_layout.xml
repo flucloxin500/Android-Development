@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f5df"
+    tools:context=".MadrasahActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="মাদ্রাসা সমূহ"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textColor="#a9251d"
+            android:textStyle="bold"
+            android:layout_marginTop="15sp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/neumorphCardView"
+                android:layout_width="315dp"
+                android:layout_height="85dp"
+                app:neumorph_shadowColorDark="@color/thankYou_des"
+                app:neumorph_shadowColorLight="@color/text_color2"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="6dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="গারাংগিয়া ইসলামিয়া কামিল মাদ্রাসা"
+                    android:textSize="17sp"
+                    android:layout_gravity="center"
+                    android:textColor="#1a2421"
+                    />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <Button
+                android:id="@+id/bgarmad"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#f2f5df"
+                android:background="@drawable/location"
+                android:layout_marginRight="10sp"
+                android:layout_marginLeft="15sp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/neumorphCardView2"
+                android:layout_width="315dp"
+                android:layout_height="85dp"
+                app:neumorph_shadowColorDark="@color/thankYou_des"
+                app:neumorph_shadowColorLight="@color/text_color2"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="6dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="কেরানীহাট জামেউল উলুম ইসলামিয়া ফাজিল মাদ্রাসা"
+                    android:textSize="17sp"
+                    android:layout_gravity="center"
+                    android:textColor="#1a2421"
+                    android:layout_marginLeft="8sp"
+                    />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <Button
+                android:id="@+id/bkermad"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#f2f5df"
+                android:background="@drawable/location"
+                android:layout_marginRight="10sp"
+                android:layout_marginLeft="15sp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/neumorphCardView3"
+                android:layout_width="315dp"
+                android:layout_height="85dp"
+                app:neumorph_shadowColorDark="@color/thankYou_des"
+                app:neumorph_shadowColorLight="@color/text_color2"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="6dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="গারাংগিয়া ইসলামিয়া রাব্বানী মহিলা ফাজিল মাদ্রাসা"
+                    android:textSize="17sp"
+                    android:layout_gravity="center"
+                    android:textColor="#1a2421"
+                    android:layout_marginLeft="8sp"
+                    />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <Button
+                android:id="@+id/bgarwommad"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#f2f5df"
+                android:background="@drawable/location"
+                android:layout_marginRight="10sp"
+                android:layout_marginLeft="15sp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/neumorphCardView4"
+                android:layout_width="315dp"
+                android:layout_height="85dp"
+                app:neumorph_shadowColorDark="@color/thankYou_des"
+                app:neumorph_shadowColorLight="@color/text_color2"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="6dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="বাজালিয়া হেদায়েতুল ইসলাম ফাজিল মাদ্রাসা "
+                    android:textSize="17sp"
+                    android:layout_gravity="center"
+                    android:textColor="#1a2421"
+                    android:layout_marginLeft="8sp"
+                    />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <Button
+                android:id="@+id/bbajmad"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#f2f5df"
+                android:background="@drawable/location"
+                android:layout_marginRight="10sp"
+                android:layout_marginLeft="15sp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/neumorphCardView5"
+                android:layout_width="315dp"
+                android:layout_height="85dp"
+                app:neumorph_shadowColorDark="@color/thankYou_des"
+                app:neumorph_shadowColorLight="@color/text_color2"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="6dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="রসুলাবাদ ইসলামিয়া সিনিয়র ফাজিল মাদ্রাসা"
+                    android:textSize="17sp"
+                    android:layout_gravity="center"
+                    android:textColor="#1a2421"
+                    android:layout_marginLeft="8sp"
+                    />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <Button
+                android:id="@+id/brasmad"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#f2f5df"
+                android:background="@drawable/location"
+                android:layout_marginRight="10sp"
+                android:layout_marginLeft="15sp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/neumorphCardView6"
+                android:layout_width="315dp"
+                android:layout_height="85dp"
+                app:neumorph_shadowColorDark="@color/thankYou_des"
+                app:neumorph_shadowColorLight="@color/text_color2"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="6dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="সাতকানিয়া মাহমুদুল উলুম ফাজিল মাদ্রাসা "
+                    android:textSize="17sp"
+                    android:layout_gravity="center"
+                    android:textColor="#1a2421"
+                    android:layout_marginLeft="8sp"
+                    />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <Button
+                android:id="@+id/bsatmad"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#f2f5df"
+                android:background="@drawable/location"
+                android:layout_marginRight="10sp"
+                android:layout_marginLeft="15sp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/neumorphCardView7"
+                android:layout_width="315dp"
+                android:layout_height="85dp"
+                app:neumorph_shadowColorDark="@color/thankYou_des"
+                app:neumorph_shadowColorLight="@color/text_color2"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="6dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="কাঞ্চনা আনোয়ারুল উলুম ইসলামিয়া আলিম মাদ্রাসা "
+                    android:textSize="17sp"
+                    android:layout_gravity="center"
+                    android:textColor="#1a2421"
+                    android:layout_marginLeft="8sp"
+                    />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <Button
+                android:id="@+id/bkanmad"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#f2f5df"
+                android:background="@drawable/location"
+                android:layout_marginRight="10sp"
+                android:layout_marginLeft="15sp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/neumorphCardView8"
+                android:layout_width="315dp"
+                android:layout_height="85dp"
+                app:neumorph_shadowColorDark="@color/thankYou_des"
+                app:neumorph_shadowColorLight="@color/text_color2"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="6dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ছদাহা মোহাম্মদিয়া খাইরিয়া আলিম মাদ্রাসা "
+                    android:textSize="17sp"
+                    android:layout_gravity="center"
+                    android:textColor="#1a2421"
+                    android:layout_marginLeft="8sp"
+                    />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <Button
+                android:id="@+id/bchomad"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#f2f5df"
+                android:background="@drawable/location"
+                android:layout_marginRight="10sp"
+                android:layout_marginLeft="15sp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/neumorphCardView9"
+                android:layout_width="315dp"
+                android:layout_height="85dp"
+                app:neumorph_shadowColorDark="@color/thankYou_des"
+                app:neumorph_shadowColorLight="@color/text_color2"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="6dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="বায়তুশ শরফ আখতারিয়া আদর্শ আলিম মাদ্রাসা"
+                    android:textSize="17sp"
+                    android:layout_gravity="center"
+                    android:textColor="#1a2421"
+                    android:layout_marginLeft="8sp"
+                    />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <Button
+                android:id="@+id/bbaimad"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#f2f5df"
+                android:background="@drawable/location"
+                android:layout_marginRight="10sp"
+                android:layout_marginLeft="15sp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

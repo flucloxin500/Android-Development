@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/hello"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/hello"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AmaderSatkania"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BusCounterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CurrierActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OnlineShoppingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LAwyerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GymActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConvensionHallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RestaurentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PoliceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyCallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CoachingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UniversityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PharmacyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SkillActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".BloodDonorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RentCarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LibraryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AtmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CollegeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MadrasahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SchoolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NetworkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TempleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MosqueActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AmbulanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HospitalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WebBrowserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

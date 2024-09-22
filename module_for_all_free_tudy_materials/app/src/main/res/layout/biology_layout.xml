@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BiologyActivity"
+    android:orientation="vertical"
+    android:background="#282b30"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/lphyf"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginBottom="30sp"
+                    android:text="Botany"
+                    android:textColor="#ff0007"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationView1"
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    app:lottie_rawRes="@raw/bio"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"/>
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 1: cell and it's structure\n (কোষ ও এর গঠন)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"
+                />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 2:cell division\n (কোষ বিভাজন)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"
+                />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 3:cell chemistry\n (কোষ রসায়ন)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 4:micro-organism\n (অণুজীব)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 5:algae and fungi\n (শৈবাল ও ছত্রাক)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 6:bryophyta and pterydophyta\n(ব্রায়োফাইটা ও টেরিডোফাইটা)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 7:gymnosperms and angiosperms\n(নগ্নবীজী ও আবৃতবীজী)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 8:tissue and tissue system\n(টিস্যু ও টিস্যুতন্ত্র)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 9:plant physiology\n(উদ্ভিদ শারীরতত্ত্ব)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 10:plant reproduction\n(উদ্ভিদ প্রজনন)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 11:biotechnology\n(জীবপ্রযুক্তি)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 12:environment,distribution and conservation of living organisms\n(জীবের পরিবেশ,বিস্তার ও সংরক্ষণ)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginBottom="30sp"
+                    android:text="Zoology"
+                    android:textColor="#ff0007"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationView2"
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    app:lottie_rawRes="@raw/bio"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 1:Animal diversity and classification\n (প্রাণীর বিভিন্নতা ও শ্রেণীবিন্যাস)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 2:Animal identity\n (প্রাণীর পরিচিতি)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 3:human physiology\n(পরিপাক ও শোষণ"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 4:blood and circulation\n (রক্ত ও সংবহন)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 5:respiration and breathing\n (শ্বসন ও শ্বাসক্রিয়া)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 6:wastes and elimination\n(বর্জ ও নিষ্কাশন)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 7:locomotion and movement\n(চলন ও অঙ্গচালনা)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 8:coordination and control\n(সমন্বয় ও নিয়ন্ত্রণ)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 9:continuation of human life\n(মানব জীবনের ধারাবাহিকতা)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 10:protection of human body\n(মানবদেহের প্রতিরক্ষা)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 11:genetics and evolution\n(জিনতত্ত্ব ও বিবর্তন)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 12:animal behavior\n(প্রাণীর আচরণ)"
+                android:background="@drawable/shape2"
+                android:layout_marginBottom="8sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

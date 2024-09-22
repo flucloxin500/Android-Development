@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/aesthetic"
+
+            />
+        <LinearLayout
+            android:id="@+id/laysong1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:background="#DCDCDC"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/minar"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="Karone Okarone | Minar Rahman | Official Music Video | Eagle Music"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:text="Song: Karone Okarone\nVocal: Minar Rahman \nLyrics: Isteaque Ahmed\nTune: Minar Rahman\nMusic Arrangement: Shaker Raza"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Duration 5:16"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/laysong2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:background="#DCDCDC"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/ysh"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="Sajna l Lyrics Song Soulful Voice Of l Yashal Shahid l Unplugged Sweet Poison"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:text="Song Credits\n►Singer: Yashal Shahid\n►Composer: Yashal Shahid\n►Lyrics: Sibtain Khalid\n►Motion Lyrical Visual: Hunza Hill "
+                    android:textSize="12sp"
+
+                    android:textStyle="bold"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Duration 2:34"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:id="@+id/laysong3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:background="#DCDCDC"
+
+        >
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+
+            android:src="@drawable/ysh"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sajna l Lyrics Song Soulful Voice Of l Yashal Shahid l Unplugged Sweet Poison"
+                android:textColor="#000000"
+                android:maxLines="2"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="Song Credits\n►Singer: Yashal Shahid\n►Composer: Yashal Shahid\n►Lyrics: Sibtain Khalid\n►Motion Lyrical Visual: Hunza Hill "
+                android:textSize="12sp"
+
+                android:textStyle="bold"
+
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duration 2:34"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="italic"
+
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

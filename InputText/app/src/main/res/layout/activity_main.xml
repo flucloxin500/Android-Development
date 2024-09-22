@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#f3e5f5"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduce Your Self"
+        android:textSize="30sp"
+        android:textColor="#c51162"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editnickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="Input your nickname"
+        android:inputType="textPersonName"
+
+
+        />
+
+    <Button
+        android:id="@+id/buttonregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="register"
+        android:backgroundTint="#6a1b9a"
+        />
+
+    <TextView
+        android:id="@+id/textthanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#512da8"
+        android:layout_gravity="center"
+        android:text=""
+        android:layout_margin="10sp"
+        />
+
+    <EditText
+        android:id="@+id/editbloodgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="Input your bloodgroup"
+        android:inputType="textPersonName"
+
+
+
+        />
+
+    <Button
+        android:id="@+id/buttonsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="submit"
+        android:backgroundTint="#6a1b9a"
+        />
+
+    <TextView
+        android:id="@+id/textwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#512da8"
+        android:layout_gravity="center"
+        android:text=""
+        android:layout_margin="10sp"
+        />
+
+
+</LinearLayout>

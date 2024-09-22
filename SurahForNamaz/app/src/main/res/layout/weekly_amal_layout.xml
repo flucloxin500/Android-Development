@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeeklyAmalActivity"
+    android:orientation="vertical"
+    android:background="#80cbc4"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#1de9b6"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="সাপ্তাহিক গুরুত্বপূর্ণ আমল"
+                    android:textSize="26dp"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:padding="10dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১:  জুমআর নামায"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/shape4"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="যে ব্যক্তি গোসল করল এবং জুমাআয় হাজির হলো, অতঃপর সাধ্যমতো নামাজ পড়ল। এরপর খুতবা শেষ না হওয়া পর্যন্ত বিনা বাক্যে মনোযোগসহ শুনল। অতঃপর ইমামের সাথে নামাজ আদায় করল, তাহলে তার মাঝে ও অন্য জুমআর মাঝে এমনকি এর অতিরিক্ত আরো তিন দিনে যা কিছু পাপগুনাহ হয়েছে তা মাফ হয়ে গেল।\n»(বর্ণনায় মুসলিম)"
+                    android:layout_margin="10dp"
+                    android:textSize="24dp"
+                    android:gravity="center"
+                    android:textColor="#212121"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/shape5"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="পাঁচ নামাজ, জুমআ থেকে জুমআ, রমজান থেকে রমজান- যদি কবীরা গুনাহ থেকে বেঁচে থাকা হয়- তবে এ সবের মাঝে যা হয় তার জন্য কাফফরা।\n»(বর্ণনায় মুসলিম)"
+                    android:layout_margin="10dp"
+                    android:textSize="24dp"
+                    android:gravity="center"
+                    android:textColor="#212121"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২: সূরা কাহফ তিলাওয়াত"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/shape4"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="জুমআর দিন সূরা কাহাফ পড়া মুস্তাহাব। হাদীসে এসেছে, «যে ব্যক্তি জুমআর দিন সূরা কাহাফ পড়ল, দুই জুমআর মধ্যবর্তী সময়টা তার জন্য নূর দ্বারা আলোকিত হলো।\n»(বর্ণনায় হাকেম)"
+                    android:layout_margin="10dp"
+                    android:textSize="24dp"
+                    android:gravity="center"
+                    android:textColor="#212121"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/shape5"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="পবিত্র কোরানের ১৮ তম সূরাহ হলো সূরা আল কাহফ।\nসূরা পড়তে নিম্নোক্ত বাটনে \nক্লিক করুন "
+                    android:layout_margin="10dp"
+                    android:textSize="24dp"
+                    android:gravity="center"
+                    android:textColor="#212121"
+                    />
+                <Button
+                    android:id="@+id/bsurahkahf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="সূরা আল কাহফ"
+                    android:layout_gravity="center"
+                    android:textSize="18dp"
+                    android:backgroundTint="#64ffda"
+                    android:textColor="#263238"
+
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৩: রোযা রাখা"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/shape4"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="রমজানরে ফরজ রোযা ছাড়াও রাসুলুল্লাহ (সা.) বিভিন্ন উপলক্ষ্যে বিশেষ বিশেষ দিনে রোজা রেখেছেন এবং তাঁর উম্মতকে রোজা রাখতে বলেছেন। তাছাড়া মানুষের মান্নতের রোজা রাখাও আবশ্যক।
+প্রিয়নবি (সা.) প্রতি সপ্তাহে দুইদিন রোজা রাখতেন। আর তা হলো সোমবার ও বৃহস্পতিবারের রোযা। এই দুই দিন রোজা রাখার ফজিলত :প্রতি সপ্তাহের সোমবার ও বৃহস্পতিবার দিন নফল রোযা রাখা সুন্নত ও মুস্তাহাব।"
+                    android:layout_margin="10dp"
+                    android:textSize="24dp"
+                    android:gravity="center"
+                    android:textColor="#212121"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/shape5"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="মা আয়ি’শাহ (রা.) বলেন, ‘আল্লাহর রাসুল (সা.) সোমবার ও বৃহস্পতিবার দিন রোযা রাখাকে প্রাধান্য দিতেন।’ (তিরমিযী : ১০২৭)। "
+                    android:layout_margin="10dp"
+                    android:textSize="24dp"
+                    android:gravity="center"
+                    android:textColor="#212121"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

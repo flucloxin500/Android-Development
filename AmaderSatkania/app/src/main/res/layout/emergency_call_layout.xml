@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmergencyCallActivity"
+    android:orientation="vertical"
+    android:background="#e1f5fe"
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/two_color"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:text="ফায়ার সার্ভিস"
+                android:textSize="25sp"
+                android:padding="10dp"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/fire_service"/>
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/callfire"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#e1f5fe"
+            android:src="@drawable/call2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/two_color"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:text="চট্টগ্রাম মেডিকেল"
+                android:textSize="25sp"
+                android:padding="10dp"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/medical"/>
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/callcmch"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#e1f5fe"
+            android:src="@drawable/call2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/two_color"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:text="জরুরি সেবা"
+                android:textSize="25sp"
+                android:padding="10dp"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/emergency" />
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/callemer"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#e1f5fe"
+            android:src="@drawable/call2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/two_color"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:text="শিশু সহায়তা"
+                android:textSize="25sp"
+                android:padding="10dp"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/child_abuse"/>
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/callchildhelp"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:backgroundTint="#e1f5fe"
+            android:src="@drawable/call2"
+
+
+            />
+
+
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="295dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/two_color"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:text="নারী ও শিশু নির্যাতন"
+                        android:textSize="22sp"
+                        android:padding="10dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/woman_abuse"/>
+                </LinearLayout>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/callwoman"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#e1f5fe"
+                    android:src="@drawable/call2"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="295dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/two_color"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:text="জাতীয় পরিচয়পত্র"
+                        android:textSize="25sp"
+                        android:padding="10dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/nid"/>
+                </LinearLayout>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/callnid"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#e1f5fe"
+                    android:src="@drawable/call2"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="295dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/two_color"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:text="সরকারি আইন সেবা"
+                        android:textSize="23sp"
+                        android:padding="10dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/gov_law"/>
+                </LinearLayout>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/callgovlaws"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#e1f5fe"
+                    android:src="@drawable/call2"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="295dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/two_color"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:text="দূর্যোগের আগামবার্তা"
+                        android:textSize="22sp"
+                        android:padding="10dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/natural_dis"/>
+                </LinearLayout>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/callnatureaffect"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#e1f5fe"
+                    android:src="@drawable/call2"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="295dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/two_color"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:text="দুদক হটলাইন"
+                        android:textSize="25sp"
+                        android:padding="10dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/crime"/>
+                </LinearLayout>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/callcrimebranch"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#e1f5fe"
+                    android:src="@drawable/call2"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="295dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/two_color"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:text="তথ্য সেবা"
+                        android:textSize="25sp"
+                        android:padding="10dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/info"/>
+                </LinearLayout>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/callinfohelp"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#e1f5fe"
+                    android:src="@drawable/call2"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+
+
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

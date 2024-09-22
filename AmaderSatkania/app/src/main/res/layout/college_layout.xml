@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CollegeActivity"
+    android:orientation="vertical"
+    android:background="#f2f5df"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="কলেজ সমূহ"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textColor="#a9251d"
+        android:textStyle="bold"
+        android:layout_marginTop="15sp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/neumorphCardView"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            app:neumorph_shadowColorDark="@color/thankYou_des"
+            app:neumorph_shadowColorLight="@color/text_color2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সাতকানিয়া সরকারি কলেজ"
+                android:textSize="19sp"
+                android:layout_gravity="center"
+                android:textColor="#1a2421"
+                />
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <Button
+            android:id="@+id/bsatcolloc"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#f2f5df"
+            android:background="@drawable/location"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="15sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/neumorphCardView2"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            app:neumorph_shadowColorDark="@color/thankYou_des"
+            app:neumorph_shadowColorLight="@color/text_color2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সাতকানিয়া আদর্শ মহিলা কলেজ "
+                android:textSize="17sp"
+                android:layout_gravity="center"
+                android:textColor="#1a2421"
+                />
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <Button
+            android:id="@+id/bsatwomcolloc"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#f2f5df"
+            android:background="@drawable/location"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="15sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/neumorphCardView3"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            app:neumorph_shadowColorDark="@color/thankYou_des"
+            app:neumorph_shadowColorLight="@color/text_color2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="আল হেলাল আদর্শ ডিগ্রী কলেজ "
+                android:textSize="17sp"
+                android:layout_gravity="center"
+                android:textColor="#1a2421"
+                />
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <Button
+            android:id="@+id/bsatahcolloc"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#f2f5df"
+            android:background="@drawable/location"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="15sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/neumorphCardView4"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            app:neumorph_shadowColorDark="@color/thankYou_des"
+            app:neumorph_shadowColorLight="@color/text_color2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="জাফর আহমেদ চৌধুরী কলেজ "
+                android:textSize="19sp"
+                android:layout_gravity="center"
+                android:textColor="#1a2421"
+                />
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <Button
+            android:id="@+id/bjafcolloc"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#f2f5df"
+            android:background="@drawable/location"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="15sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/neumorphCardView5"
+            android:layout_width="300dp"
+            android:layout_height="85dp"
+            app:neumorph_shadowColorDark="@color/thankYou_des"
+            app:neumorph_shadowColorLight="@color/text_color2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="কর্নেল (অবঃ) অলি আহমদ বীর বিক্রম কলেজ"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textColor="#1a2421"
+                android:layout_marginLeft="10dp"
+                />
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <Button
+            android:id="@+id/bcorcolloc"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#f2f5df"
+            android:background="@drawable/location"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="15sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/neumorphCardView6"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            app:neumorph_shadowColorDark="@color/thankYou_des"
+            app:neumorph_shadowColorLight="@color/text_color2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="চিব্বাড়ী এম এ মোতালেব কলেজ"
+                android:textSize="17sp"
+                android:layout_gravity="center"
+                android:textColor="#1a2421"
+                />
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <Button
+            android:id="@+id/bcibcolloc"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#f2f5df"
+            android:background="@drawable/location"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="15sp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

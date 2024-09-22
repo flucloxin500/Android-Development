@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="vertical"
+
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/cbc2"
+
+
+            >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All about Parking"
+                android:gravity="center"
+                android:textSize="35sp"
+                android:layout_marginTop="15sp"
+                android:textColor="#282b30"
+
+                />
+
+            <ImageView
+                android:id="@+id/parking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:srcCompat="@tools:sample/avatars"
+                android:layout_marginBottom="25sp"
+
+
+
+                />
+
+            <TextView
+                android:id="@+id/ptext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The space of parking area is almost square feet. More than 7 cars can be parked at a time. Also more than 12 bikes can be parked here. The parking area is always full with vehicle.Behind parking it has one lift, stair,one Mosque and a backyard."
+                android:textSize="25sp"
+                android:layout_margin="13sp"
+                android:textColor="#282b30"
+
+
+
+
+                />
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

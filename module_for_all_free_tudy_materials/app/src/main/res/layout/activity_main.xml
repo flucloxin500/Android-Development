@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#282b30"
+
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="بسم الله الرحمن الرحيم"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:layout_marginTop="18sp"
+        android:layout_marginBottom="15sp"
+        android:textStyle="bold"
+
+
+
+        />
+
+
+
+        <LinearLayout
+
+            android:id="@+id/lHSC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/shape"
+            android:backgroundTint="#c0c0c0"
+            android:layout_marginTop="20sp"
+            >
+
+
+            <ImageView
+                android:id="@+id/iHSC"
+                android:layout_width="160dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="20sp"
+                android:src="@drawable/hscg"
+
+
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+
+                <TextView
+                    android:id="@+id/tclass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:text="Class 11 | Class 12 | HSC | ALIM"
+                    android:textColor="#36393e"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="10sp"
+
+                    />
+
+                <TextView
+                android:id="@+id/tsub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Physics\nChemistry\nBiology\nMathematics\nExtra"
+                android:textStyle="normal"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="20sp"
+                android:textSize="18sp"
+                android:textColor="#36393e"
+                />
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lAdm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:backgroundTint="#c0c0c0"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/shape"
+        >
+
+
+        <ImageView
+            android:id="@+id/iAdm"
+            android:layout_width="160dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="20sp"
+            android:src="@drawable/admg"
+
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:id="@+id/tadm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Admission Test |Entrance Exam |"
+                android:textStyle="bold"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="20sp"
+                android:textSize="18sp"
+                android:textColor="#36393e"
+                android:layout_marginRight="10sp"
+
+                />
+
+
+            <TextView
+                android:id="@+id/tdep"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="10sp"
+                android:text="Engineering\nVarsity\nMedical\nIBA\nExtra"
+                android:textColor="#36393e"
+                android:textSize="18sp"
+                android:textStyle="normal"
+
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All credit goes to our beloved TEACHERS!!"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="15sp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THANKS"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="160sp"
+            android:layout_marginTop="20sp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            app:lottie_rawRes="@raw/love"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#b9f6ca"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/grocery2"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="15sp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What's your buying price.?"
+        android:padding="10dp"
+        android:textColor="#37474f"
+        android:textSize="17dp"
+
+        />
+
+    <EditText
+        android:id="@+id/edbuy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+
+        android:padding="10dp"
+        android:hint="Input your buying price"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What's the ratio you want to profit.?"
+        android:padding="10dp"
+        android:textColor="#212121"
+        android:textSize="17dp"
+        />
+
+    <EditText
+        android:id="@+id/edprofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Input your expected ratio"
+
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#dd2c00"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:padding="10dp"
+        android:textColor="#f50057"
+        android:textSize="22sp"
+        />
+</LinearLayout>

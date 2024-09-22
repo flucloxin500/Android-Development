@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsActivity"
+    android:background="#4db6ac">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/profile_about_us"
+            app:riv_oval="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="65dp">
+
+
+        </com.makeramen.roundedimageview.RoundedImageView>
+
+        <LinearLayout
+            android:layout_width="355sp"
+            android:layout_height="245sp"
+            android:background="@drawable/shape2"
+            android:backgroundTint="#e3f2fd"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="ওয়ালিদ"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="35dp"
+                android:textColor="#d00300"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ঠিকানাঃ ৫ নম্বর ওয়ার্ড, ছিটুয়াপাড়া, পশ্চিম ঢেমশা, সাতকানিয়া পৌরসভা।"
+                android:textSize="20sp"
+                android:textColor="#a9251d"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="মতামত জানাতে↓"
+                android:textSize="18sp"
+                android:textColor="#cb2c41"
+                android:layout_marginLeft="10dp"
+                android:textStyle="normal"
+                android:layout_gravity="center"
+
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5sp"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mail:"
+                    android:textColor="#2dceb9"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_gravity="center"
+                    />
+
+                <ImageView
+                    android:id="@+id/aboutusmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mail"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Message:"
+                    android:textColor="#2dceb9"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="69sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_gravity="center"
+                    />
+
+                <ImageView
+                    android:id="@+id/aboutusmsg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/msg"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5sp"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Call:"
+                    android:textColor="#2dceb9"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_gravity="center"
+                    />
+
+                <ImageView
+                    android:id="@+id/aboutuscall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/call"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginLeft="5sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Facebook:"
+                    android:textColor="#2dceb9"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="49sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_gravity="center"
+                    />
+
+                <ImageView
+                    android:id="@+id/aboutusfb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fb"
+                    android:layout_marginTop="5sp"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="355sp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Developed &amp; Managed by :"
+                android:layout_marginTop="55sp"
+                android:layout_gravity="center"
+                android:textColor="#006064"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/hello"
+                app:riv_oval="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="5sp"
+                >
+
+
+            </com.makeramen.roundedimageview.RoundedImageView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

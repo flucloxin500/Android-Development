@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+
+    <item android:id="@+id/nav_bl"
+        android:title="Blood Donor"
+        android:icon="@drawable/blood"/>
+
+    <item android:id="@+id/nav_skill"
+        android:title="Skill Development"
+        android:icon="@drawable/skill"/>
+
+    <item android:id="@+id/nav_more"
+        android:title="More"
+        android:icon="@drawable/more"/>
+</menu>

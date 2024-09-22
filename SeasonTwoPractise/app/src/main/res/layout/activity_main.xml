@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#ffb74d"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Team Flux"
+                android:gravity="center"
+                android:textSize="35dp"
+                android:textColor="#C70039"
+                android:layout_marginTop="18dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/curve"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Season 2  Home Work"
+                    android:gravity="center"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:textColor="#212121"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="20"
+                android:padding="5dp"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/curve"
+                    android:text="201"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/curve"
+                    android:text="202"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="20"
+                android:padding="5dp"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/curve"
+                    android:text="203"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/curve"
+                    android:text="204"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="20"
+                android:padding="5dp"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/curve"
+                    android:text="205"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/curve"
+                    android:text="206"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="20"
+                android:padding="5dp"
+                >
+
+                <Button
+                    android:id="@+id/b207_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/curve"
+                    android:text="207_1"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+
+                    />
+                <Button
+                    android:id="@+id/b207_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/curve"
+                    android:text="207_2"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="20"
+                android:padding="5dp"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/curve"
+                    android:text="209"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/curve"
+                    android:text="210"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="20"
+                android:padding="5dp"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/curve"
+                    android:text="211"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/curve"
+                    android:text="212"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="20"
+                android:padding="5dp"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/curve"
+                    android:text="213"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/curve"
+                    android:text="214"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/frame_layout"
+/>
+    <AnalogClock
+        android:layout_width="100dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/textquran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="কোরআন"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#141414"
+        android:layout_marginTop="8sp"
+        />
+
+
+<com.etebarian.meowbottomnavigation.MeowBottomNavigation
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bottom_navigation"
+    app:mbn_circleColor="@color/black"
+    app:mbn_selectedIconColor="#80cbc4"
+    app:mbn_countTextColor="@color/white"
+    app:mbn_countBackgroundColor="@color/purple_200"
+    app:mbn_defaultIconColor="@color/white"
+    app:mbn_backgroundBottomColor="#80cbc4"
+    />
+
+
+
+
+</LinearLayout>

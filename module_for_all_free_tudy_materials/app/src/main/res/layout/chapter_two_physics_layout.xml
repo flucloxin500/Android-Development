@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChapterTwoPhysicsActivity"
+    android:orientation="vertical"
+    android:background="#282b30"
+    >
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="30sp"
+                android:text="ভেক্টর"
+                android:textColor="#ff0007"
+                android:textSize="30sp"
+                android:textStyle="bold"
+
+                />
+
+            <LinearLayout
+
+                android:id="@+id/l1phy2_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/shape"
+                android:backgroundTint="#ffffff"
+                android:orientation="horizontal"
+                android:layout_margin="10sp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tpclass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="5sp"
+                        android:layout_marginRight="10sp"
+                        android:text="Lecture:1  ভেক্টরের লব্ধি | ভেক্টরের যোগ |(Resultant of Vectors|Addition of Vectors)|Beginner to Master"
+                        android:textColor="#36393e"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:text="Duration  0:16:00 hours"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/l1phy2_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/shape"
+                android:backgroundTint="#ffffff"
+                android:orientation="horizontal"
+                android:layout_margin="10sp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tpclass2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="5sp"
+                        android:layout_marginRight="10sp"
+                        android:text="Lecture:2 ভেক্টরের লব্ধির গাণিতিক সমস্যা | (Resultant of Vectors Mathematical Problems)"
+                        android:textColor="#36393e"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:text="Duration  0:17:26 hours"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/l1phy2_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/shape"
+                android:backgroundTint="#ffffff"
+                android:orientation="horizontal"
+                android:layout_margin="10sp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tpclass3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="5sp"
+                        android:layout_marginRight="10sp"
+                        android:text="Lecture:3  ভেক্টরের লব্ধির বিভিন্ন মান ও আরো গাণিতিক সমস্যা | (Resultant of Vectors Mathematics)"
+                        android:textColor="#36393e"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:text="Duration  0:21:19 hours"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:id="@+id/l1phy2_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/shape"
+                android:backgroundTint="#ffffff"
+                android:orientation="horizontal"
+                android:layout_margin="10sp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tpclass4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="5sp"
+                        android:layout_marginRight="10sp"
+                        android:text="Lecture:4 ভেক্টরের বিয়োগ ও গাণিতিক সমস্যা | (Vector Subtraction) | Chinmoy, EEE, BUET"
+                        android:textColor="#36393e"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:text="Duration  0: 23:53 hours"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:id="@+id/l1phy2_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/shape"
+                android:backgroundTint="#ffffff"
+                android:orientation="horizontal"
+                android:layout_margin="10sp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tpclass5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="5sp"
+                        android:layout_marginRight="10sp"
+                        android:text="Lecture:5 আপেক্ষিক বেগ ও গাণিতিক সমস্যা (Relative Velocity)| Beginner to Master"
+                        android:textColor="#36393e"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:text="Duration  0:38:29 hours"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:id="@+id/l1phy2_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/shape"
+                android:backgroundTint="#ffffff"
+                android:orientation="horizontal"
+                android:layout_margin="10sp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tpclass6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="5sp"
+                        android:layout_marginRight="10sp"
+                        android:text="Lecture:6 বৃষ্টির অংক | আপেক্ষিক বেগ |(Rainfall Maths)_পর্ব ১| Beginner to Master"
+                        android:textColor="#36393e"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:text="Duration  0:23:20 hours"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:id="@+id/l1phy2_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/shape"
+                android:backgroundTint="#ffffff"
+                android:orientation="horizontal"
+                android:layout_margin="10sp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tpclass7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="5sp"
+                        android:layout_marginRight="10sp"
+                        android:text="Lecture:7 বৃষ্টির অংক | আপেক্ষিক বেগ |(Rainfall Maths)_পর্ব ২ | Beginner to Master"
+                        android:textColor="#36393e"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:text="Duration  0: 34:49 hours"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:id="@+id/l1phy2_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/shape"
+                android:backgroundTint="#ffffff"
+                android:orientation="horizontal"
+                android:layout_margin="10sp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tpclass8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="5sp"
+                        android:layout_marginRight="10sp"
+                        android:text="Lecture:8  আপেক্ষিক ত্বরণ | গাণিতিক সমস্যা |(Relative Acceleration)| Beginner to Master"
+                        android:textColor="#36393e"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:text="Duration  0:15:14 hours"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:id="@+id/l1phy2_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/shape"
+                android:backgroundTint="#ffffff"
+                android:orientation="horizontal"
+                android:layout_margin="10sp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tpclass9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="5sp"
+                        android:layout_marginRight="10sp"
+                        android:text="Lecture:9 ভেক্টরের উপাংশ | লম্ব উপাংশ। গাণিতিক সমস্যা |(Resolution of Vector)| Beginner to Master"
+                        android:textColor="#36393e"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:text="Duration  0:36:29 hours"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:id="@+id/l1phy2_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/shape"
+                android:backgroundTint="#ffffff"
+                android:orientation="horizontal"
+                android:layout_margin="10sp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tpclass10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="5sp"
+                        android:layout_marginRight="10sp"
+                        android:text="Lecture:10  যে কোন দিক বরাবর ভেক্টরের উপাংশ | লন রোলার | নৌকার গুণ টানা (Resolution of Vector)|"
+                        android:textColor="#36393e"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:text="Duration  0:30:09 hours"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:id="@+id/l1phy2_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/shape"
+                android:backgroundTint="#ffffff"
+                android:orientation="horizontal"
+                android:layout_margin="10sp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tpclass11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="5sp"
+                        android:layout_marginRight="10sp"
+                        android:text="Lecture:11 দুই এর অধিক ভেক্টরের লব্ধি (উপাংশ পদ্ধতি) | (Resultant of multiple Vectors)| CPS"
+                        android:textColor="#36393e"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:text="Duration  0:21:44 hours"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:id="@+id/l1phy2_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/shape"
+                android:backgroundTint="#ffffff"
+                android:orientation="horizontal"
+                android:layout_margin="10sp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tpclass12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="5sp"
+                        android:layout_marginRight="10sp"
+                        android:text="Lecture:12 ক্যালকুলেটরে অনেকগুলো ভেক্টরের লব্ধি | Calculator Hacks | Episode 2(Multiple Vector)"
+                        android:textColor="#36393e"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:text="Duration  0:28:59 hours"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:id="@+id/l1phy2_13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/shape"
+                android:backgroundTint="#ffffff"
+                android:orientation="horizontal"
+                android:layout_margin="10sp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tpclass13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="5sp"
+                        android:layout_marginRight="10sp"
+                        android:text="Lecture:13 3D ভেক্টর এর গাণিতিক সমস্যা | একক ভেক্টর | 3D Vector and Unit Vector | HSC|ADMISSION"
+                        android:textColor="#36393e"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:text="Duration  0:34:31 hours"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:id="@+id/l1phy2_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/shape"
+                android:backgroundTint="#ffffff"
+                android:orientation="horizontal"
+                android:layout_margin="10sp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tpclass14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="5sp"
+                        android:layout_marginRight="10sp"
+                        android:text="Lecture:14 নদী ও নৌকা (নদী পারাপার) সংক্রান্ত সমস্যা | River Boat (River Crossing) | HSC|ADMISSION"
+                        android:textColor="#36393e"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:text="Duration  0:38:14 hours"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:id="@+id/l1phy2_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/shape"
+                android:backgroundTint="#ffffff"
+                android:orientation="horizontal"
+                android:layout_margin="10sp">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tpclass15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="5sp"
+                        android:layout_marginRight="10sp"
+                        android:text="Lecture:15 নদী ও নৌকা (নদী পারাপার) সংক্রান্ত আরো গাণিতিক সমস্যা | River Boat Math | HSC|ADMISSION"
+                        android:textColor="#36393e"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:text="Duration  0: 34:16 hours"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:text="Bunch of thanks to\nChinmoy's Physics Solution"
+                android:textColor="#db5a6b"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:layout_marginTop="70sp"
+                android:layout_marginBottom="30sp"
+
+
+                />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

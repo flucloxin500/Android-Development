@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#80cbc4"
+    >
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:background="@drawable/shape2"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="إِنَّ ٱلدِّينَ عِندَ ٱللَّهِ ٱلۡإِسۡلَٰمُ﴾ [سُورَةُ آلِ عِمۡرَان: 19]"
+                android:textSize="20dp"
+                android:textColor="#212121"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="অর্থঃ নিঃসন্দেহে ইসলামই আল্লাহর নিকট একমাত্র দীন।” [সূরা আলে ইমরান, আয়াত: ১৯] "
+                android:textSize="18dp"
+                android:textColor="#212121"
+                android:layout_marginTop="18dp"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Translate: Indeed, the religion in the sight of ALLAH is Islam.[ Surah AL Imran verse: 19"
+                android:textSize="18dp"
+                android:textColor="#212121"
+                android:layout_marginTop="5dp"
+                android:padding="6dp"
+                />
+
+
+
+        </LinearLayout>
+
+            <AnalogClock
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape2"
+                android:layout_marginTop="7sp"
+                android:layout_marginLeft="3sp"
+                android:layout_marginRight="3sp"
+                android:layout_marginBottom="7sp"
+                android:orientation="horizontal"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="রিমাইন্ডার:"
+                    android:textSize="18sp"
+                    android:textColor="#212121"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/marqueeText"
+                    android:text="আপনার সালাতের ওয়াক্তের ব্যাপারে আপনি সচেতন তো? "
+                    android:textSize="21sp"
+                    android:textColor="#212121"
+                    android:textStyle="italic"
+                    android:singleLine="true"
+                    android:scrollHorizontally="true"
+                    android:layout_marginLeft="12sp"
+                    android:layout_marginRight="10sp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:weightSum="20"
+
+                >
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="130dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/shape2"
+                    android:layout_margin="10dp"
+                    android:id="@+id/lnamazsurah"
+                    android:layout_weight="10"
+
+
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="92dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/surah"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="নামাযের জন্য সূরা"
+                        android:gravity="center"
+                        android:textColor="#212121"
+                        android:textSize="20dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="130dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/shape2"
+                    android:layout_margin="10dp"
+                    android:id="@+id/lmasnundua"
+                    android:layout_weight="10"
+
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="92dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/dua"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="মাসনূন দোয়া"
+                        android:gravity="center"
+                        android:textColor="#212121"
+                        android:textSize="20dp"
+                        />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:weightSum="20"
+
+                >
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="130dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/shape2"
+                    android:layout_margin="10dp"
+                    android:id="@+id/lfarazamal"
+                    android:layout_weight="10"
+
+
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="85dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/tasbihat"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ফরয নামাজের \nপর আমল"
+                        android:gravity="center"
+                        android:textColor="#212121"
+                        android:textSize="16dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="130dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/shape2"
+                    android:layout_margin="10dp"
+                    android:id="@+id/lspecialnamaj"
+                    android:layout_weight="10"
+
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="92dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/faraz"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="বিশেষ নামাযের দোয়া"
+                        android:gravity="center"
+                        android:textColor="#212121"
+                        android:textSize="18dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="25dp"
+                android:weightSum="20"
+
+                >
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="130dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/shape2"
+                    android:layout_margin="10dp"
+                    android:id="@+id/lsalatwakt"
+                    android:layout_weight="10"
+
+
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="92dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/namaj_wakt"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="নামাযের সময়সূচী "
+                        android:gravity="center"
+                        android:textColor="#212121"
+                        android:textSize="20dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="130dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/shape2"
+                    android:layout_margin="10dp"
+                    android:id="@+id/lweeklyamal"
+                    android:layout_weight="10"
+
+                    >
+                    <ImageView
+                        android:layout_width="85dp"
+                        android:layout_height="92dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/weekly"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="সাপ্তাহিক আমল"
+                        android:gravity="center"
+                        android:textColor="#212121"
+                        android:textSize="20dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

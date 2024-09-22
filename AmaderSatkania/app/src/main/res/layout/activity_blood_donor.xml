@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BloodDonorActivity"
+    android:background="#f2f5df">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sorry!! \nThis Service will be available soon \nInShaAllah"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:textColor="#1f2212"
+        android:padding="15sp"
+        android:layout_marginLeft="22sp"
+
+
+        />
+
+
+
+</LinearLayout>

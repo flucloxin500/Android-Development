@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/module_for_all_free_tudy_materials/app/src/main/res/drawable/circle_colored.xml" value="0.1665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/module_for_all_free_tudy_materials/app/src/main/res/drawable/red_button.xml" value="0.1775" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/module_for_all_free_tudy_materials/app/src/main/res/drawable/right_shade.xml" value="0.1775" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/module_for_all_free_tudy_materials/app/src/main/res/drawable/shape.xml" value="0.2035" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/module_for_all_free_tudy_materials/app/src/main/res/drawable/shape2.xml" value="0.1775" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/module_for_all_free_tudy_materials/app/src/main/res/layout/activity_main.xml" value="0.24469933958985055" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/module_for_all_free_tudy_materials/app/src/main/res/layout/activity_shape.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/module_for_all_free_tudy_materials/app/src/main/res/layout/admission_layout.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/module_for_all_free_tudy_materials/app/src/main/res/layout/biology_layout.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/module_for_all_free_tudy_materials/app/src/main/res/layout/chapter_one_chemistry_layout.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/module_for_all_free_tudy_materials/app/src/main/res/layout/chapter_one_layout.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/module_for_all_free_tudy_materials/app/src/main/res/layout/chapter_one_physics_layout.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/module_for_all_free_tudy_materials/app/src/main/res/layout/chapter_two_physics_layout.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/module_for_all_free_tudy_materials/app/src/main/res/layout/chemistry_layout.xml" value="0.32981530343007914" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/module_for_all_free_tudy_materials/app/src/main/res/layout/mathematics_layout.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/module_for_all_free_tudy_materials/app/src/main/res/layout/physics_layout.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/module_for_all_free_tudy_materials/app/src/main/res/layout/subject_layout.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/module_for_all_free_tudy_materials/app/src/main/res/layout/video_player.xml" value="0.35144927536231885" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
